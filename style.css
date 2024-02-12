@@ -4,8 +4,25 @@
      margin-right: auto;
 }
 div{
-    background-color: rgb(58, 124, 209);
+    background-image: linear-gradient(to right, #99c1e8, #0757ad);
 }
 body{
-    background-color: #c0bebe;
+    background-image: linear-gradient(to right,  #ede7e7e6, #464545 );
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+}
+tr:hover{
+    background-color: #D6EEEE;
+}
+#tablewidth{
+    border-collapse: collapse;
+    width: 50%;
+}
+.bgc{
+    background-color: #99c1e8;
+    border: 2px solid black;
 }
